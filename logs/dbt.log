@@ -1,0 +1,58 @@
+[0m11:45:15.147372 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002300B69D4E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002300E3A3130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002300E3A2EF0>]}
+
+
+============================== 11:45:15.162993 | 83de4bcb-a46b-4cfe-84cb-408ce9c4913c ==============================
+[0m11:45:15.162993 [info ] [MainThread]: Running with dbt=1.7.2
+[0m11:45:15.162993 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\LENOVO T470S\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init my_project', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:45:15.162993 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/LENOVO T470S/.dbt')}
+[0m11:45:15.162993 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m11:45:15.162993 [debug] [MainThread]: Starter project path: C:\Karno\dbt-demo\env\lib\site-packages\dbt\include\starter_project
+[0m11:45:15.254371 [info ] [MainThread]: 
+Your new dbt project "my_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:45:15.259365 [info ] [MainThread]: Setting up your profile.
+[0m11:48:25.424994 [info ] [MainThread]: Profile my_project written to C:\Users\LENOVO T470S\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:48:25.427959 [debug] [MainThread]: Command `dbt init` succeeded at 11:48:25.426960 after 190.28 seconds
+[0m11:48:25.428962 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002300B69D4E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230076F0E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002300E485F00>]}
+[0m11:48:25.429964 [debug] [MainThread]: Flushing usage events
+[0m21:15:35.119468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001547CA90CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001547F804AF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001547F806BC0>]}
+
+
+============================== 21:15:35.124639 | 0f3c7b96-45b0-4aec-b162-c5dcc38caf91 ==============================
+[0m21:15:35.124639 [info ] [MainThread]: Running with dbt=1.7.2
+[0m21:15:35.127701 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\LENOVO T470S\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt deps', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:15:35.128704 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Karno\dbt-demo\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:15:35.131960 [debug] [MainThread]: Command `dbt deps` failed at 21:15:35.130960 after 0.08 seconds
+[0m21:15:35.132468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001547CA90CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001547F805990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001547F804BB0>]}
+[0m21:15:35.132961 [debug] [MainThread]: Flushing usage events
+[0m21:18:27.310790 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001543C041000>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001543EDB0E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001543EDB1E40>]}
+
+
+============================== 21:18:27.315925 | 17630cba-97ea-498a-b7b8-bf0f25584f70 ==============================
+[0m21:18:27.315925 [info ] [MainThread]: Running with dbt=1.7.2
+[0m21:18:27.317719 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\LENOVO T470S\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt deps', 'send_anonymous_usage_stats': 'True'}
+[0m21:18:27.318721 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Karno\dbt-demo\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:18:27.321719 [debug] [MainThread]: Command `dbt deps` failed at 21:18:27.321719 after 0.08 seconds
+[0m21:18:27.322717 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001543C041000>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001543EDB2350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001543EDB0C10>]}
+[0m21:18:27.323306 [debug] [MainThread]: Flushing usage events

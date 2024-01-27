@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_order_details
+    description: "stagging model for details"
+    test:
+    -dbt_utils.unique_combination_of_columns:
+      combination_of_columns:
+        -order_date
+        -brand_name
+        -product_name
